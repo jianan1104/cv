@@ -1,278 +1,230 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Lin, Jian-An",
+  initials: "KA",
+  location: "Taipei, Taiwan",
+  locationLink: "https://www.google.com/maps/place/Taipei",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Software Engineer focused on building automation with Python.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Experienced Software Engineer specialized in Python and automation testing, actively involved in open-source projects, being fast learner and open minded.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/76777822?v=4",
+  personalWebsiteUrl: "https://blog.jianan1104.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "linjianan1104@gmail.com",
+    tel: "+886903160098",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/jianan1104",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/jiananlin1104/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/linjianan_1104",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "National Formosa University",
+      degree: "Master's Degree in Mechanical Engineering",
+      start: "2020",
+      end: "2022",
+    },
+    {
+      school: "National Formosa University",
+      degree: "Bachelor's Degree in Mechanical Engineering",
+      start: "2016",
+      end: "2020",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Moxa",
+      link: "https://www.moxa.com/en/",
+      location: "Taipei, Taiwan",
+      wtype: "Hybrid",
+      type: "Full-time",
+      badges: ["Hybird", "Taipei"],
+      title: "SQA Automation Testing Engineer",
+      start: "April 2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        [
+          "Achieved a 19.15% reduction in regression testing time by spearheading the development of Guerrilla SDK for network devices, involved enhancing session management protocols to streamline testing processes.",
+          "Led the transition from a monolithic to a modular SDK architecture, enhancing code maintainability and scalability by implementing a suite of development best practices and modular design principles.",
+          "Revamped developer documentation by integrating pdoc3 and Next.js, significantly improving API and project documentation clarity, which facilitated a more efficient and user-friendly development environment."
+        ],
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "Taelor",
+      link: "https://taelor.style/z",
+      badges: ["Voulenteer", "Remote", "San Francisco"],
+      location: "San Francisco, CA",
+      wtype: "Remote",
+      type: "Volunteer",
+      title: "Code Reviewer",
+      start: "Feb 2022",
+      end: null,
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        ["Contributed to a team of 5+ volunteers, evaluating, documenting, and reporting on the architecture, formatting, and quality of the React.js and PHP Laravel codebase.",
+        "Performed an in-depth analysis of 300+ lines of code within the product recommendation algorithm, presenting findings via mind maps to facilitate understanding and potential areas for refinement."
+      ],
     },
   ],
   skills: [
+    "Git",
+    "Docker",
+    "Ansible",
+    "Vagrant",
+    "Pytest",
+    "Vue",
+    "React/Next.js",
+    "FastAPI",
+    "Jenkins",
+    "Nginx",
+    "Playwright",
+    "Reflex",
+  ],
+  languages: [
+    "Python", 
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "C/C++",
+    "Bash"
+  ],
+  achievements: [
+    {
+      title: "Google DevFest Taipei 2023 Speaker",
+      techStack: ["Machine Learning", "Data Science"],
+      date: "Dec 2023",
+      description:
+        "Introduced the game-changing No-code Machine Learning feature in Google Sheets at Google DevFest Taipei 2023. Demonstrated how it democratizes ML for users of all levels and its immense potential across industries.",
+      link: {
+        label: "gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2023",
+        href: "https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2023/",
+      },
+    },
+    {
+      title: "Google IT Automation with Python Specialization",
+      techStack: ["Python", "Automation"],
+      date: "Dec 2022",
+      description:
+        "Earned the Google IT Automation with Python Professional Certificate, demonstrating proficiency in Python programming, automation, version control, troubleshooting, and applying automation at scale using configuration management and the Cloud.",
+      link: {
+        label: "www.coursera.org/account/accomplishments/specialization/certificate/BWJ2RYS46MDX",
+        href: "https://www.coursera.org/account/accomplishments/specialization/certificate/BWJ2RYS46MDX",
+      },
+    },
+    {
+      title: "Project Management Professional (PMP)® Training Program",
+      techStack: ["Project Management"],
+      date: "Oct 2022",
+      description:
+        "Earned the Project Management Professional (PMP)® certification, demonstrating a comprehensive understanding of project management principles and best practices.",
+      link: {
+        label: "drive.google.com/file/d/1sRCeJq4xNGE7P4PfvdeIAiljY9hrl_Ph/view",
+        href: "https://drive.google.com/file/d/1sRCeJq4xNGE7P4PfvdeIAiljY9hrl_Ph/view",
+      },
+    },
+    {
+      title: "Best Conference Paper Award, 4th IEEE ECICE",
+      techStack: ["Deep Learning", "Tensorflow", "Parameter Optimization"],
+      date: "Oct 2022",
+      description:
+        "Best Conference Paper Award at the 4th IEEE ECICE for research on applying deep neural networks to optimize CNC machining processes and predict performance.",
+      link: {
+        label: "drive.google.com/file/d/1Kee3gRI7XS6BlnD6m_DKCs8fwafzGGuf/view",
+        href: "https://drive.google.com/file/d/1Kee3gRI7XS6BlnD6m_DKCs8fwafzGGuf/view",
+      },
+    },
+    {
+      title: "Champion, National Thematic Competition",
+      techStack: [],
+      date: "Nov 2019",
+      description:
+        "Won the Champion title at the National Thematic Competition with the project 'NXT Wheeled Robot: Obstacle Challenge and Remote Control' showcasing exceptional skills in robotics, programming, and problem-solving.",
+      link: {
+        label: "drive.google.com/file/d/1FlRwX4MZjh62IdSzfgvT0scbNIhj6GTp/view",
+        href: "https://drive.google.com/file/d/1FlRwX4MZjh62IdSzfgvT0scbNIhj6GTp/view",
+      },
+    },
+    {
+      title: "Champion and Technical Excellence Award, 2nd TEL Robot Combat",
+      techStack: ["Team Leader","Robotics", "ANSI C", "Bluetooth"],
+      date: "Dec 2018",
+      description:
+        "Champion and Technical Excellence Award at the 2nd TEL Robot Combat competition held by Tokyo Electron Limited, demonstrating exceptional robot design, innovative engineering, and advanced technical skills.",
+      link: {
+        label: "drive.google.com/file/d/1NK_uBHhnDuvT5V6X0jZWqnEPyve_Oyd8/view",
+        href: "https://drive.google.com/file/d/1NK_uBHhnDuvT5V6X0jZWqnEPyve_Oyd8/view",
+      },
+    },
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "vagrantfile-generator",
+      techStack: ["Open Source Creator", "React.js", "Vagrant", "Vercel"],
+      description:
+        [
+          "Designed and launched an interactive Vagrantfile Generator using React and Tailwind CSS, significantly simplifying vagrant configuration processes. Actively incorporated community feedback.",
+          "Actively incorporated community feedback, demonstrating adaptability and commitment to open-source excellence."
+        ],
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "vagrantfile-generator.vercel.app",
+        href: "https://vagrantfile-generator.vercel.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "GitHub/opensource.guide",
+      techStack: ["Open Source Contributor", "GitHub"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        ["Translated key sections of GitHub's Open Source Guides into Traditional Chinese,broadening access to essential open-source knowledge for non-English speakers, contributing to a more inclusive global developer community."],
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "opensource.guide",
+        href: "https://opensource.guide/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Python/python-docs-zh-tw",
+      techStack: ["Open Source Contributor", "GitHub"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        ["Played a pivotal role in translating Python's official documentation, significantly improving accessibility for Taiwanese developers and fostering a more inclusive global programming community."],
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "docs.python.org/zh-tw",
+        href: "https://docs.python.org/zh-tw/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Google/Latexify",
+      techStack: ["Open Source Contributor", "Python"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        [
+          "Identified and corrected a display bug, and executed a major refactor of 200+ lines to boost code efficiency, underscored by implementing 600+ unit tests.",
+          "Advanced the project's continuous integration pipeline by integrating code style tools and a comprehensive testing script into CI/CD workflows, ensuring adherence to coding standards and facilitating smoother code contributions.",
+        ],
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com/google/latexify_py",
+        href: "https://github.com/google/latexify_py",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "nextjs-github-page-example-typescript",
+      techStack: ["Typescript", "Next.js", "GitHub", "Vercel"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        ["Next.js project for simulating Github user and repository page using by github API."],
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "nextjs-github-page-example-typescript.vercel.app",
+        href: "https://nextjs-github-page-example-typescript.vercel.app/",
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

@@ -1,52 +1,50 @@
 import {
   Card,
   CardHeader,
-  CardContent,
   CardDescription,
+  CardContent,
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
 
 interface Props {
   title: string;
-  description: readonly string[];
+  date: string;
+  description:  string;
   tags: readonly string[];
   link?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function AchievementCard({ title, tags, link, date, description }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
-      <CardHeader className="">
-        <div className="space-y-1">
+      <CardHeader>
+        <div className="space-y-1 flex justify-between">
           <CardTitle className="text-base">
-            {link ? (
-              <a
-                href={link}
-                target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
-              >
-                {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
-              </a>
-            ) : (
-              title
-            )}
+            <div>
+              {link ? (
+                <a
+                  href={link}
+                  target="_blank"
+                  className="inline-flex items-center gap-1 hover:underline"
+                >
+                  {title}{" "}
+                  <span className="size-1 rounded-full bg-green-500"></span>
+                </a>
+              ) : (
+                title
+              )}
+            </div>
           </CardTitle>
+          <p className="text-sm tabular-nums text-gray-500">{ date }</p>
           <div className="hidden  text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <CardDescription className=" text-xs">
-            <ol className="space-y-1 text-gray-500 list-disc list-inside ">
-              { description.map((description) => {
-                return (
-                    <li key={description} className="text-justify pl-1" >{description}</li>
-                )
-              })}
-            </ol>
-          </CardDescription>
         </div>
       </CardHeader>
+      <CardDescription className=" text-xs">
+        <p className="text-justify pl-1" >{description}</p>
+      </CardDescription>
       <CardContent className="mt-auto flex">
         <div className="mt-2 flex flex-wrap gap-1">
           {tags.map((tag) => (
