@@ -1,10 +1,14 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+![resume](https://i.imgur.com/2VlQrLB.png)
 
-# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
+# Minimalist Resume [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjianan1104%2Fcv)
 
-Simple web app that renders minimalist CV with print-friendly layout.
+Simple web app that renders minimalist Resume with print-friendly layout, Fork from [https://github.com/BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
 
 Built with Next.js and shadcn/ui, deployed on Vercel.
+
+# Improvements
+- Make work experience description can be a list of bullet points.
+- Add `Framework and Tools`, `Programming Languages` and `Awards and Achievements` section.
 
 # Features
 
@@ -19,7 +23,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
+   git clone https://github.com/jianan1104/cv.git
    ```
 
 2. Move to the cloned directory
