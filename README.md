@@ -29,7 +29,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 2. Move to the cloned directory
 
    ```bash
-   cd cv
+   cd resume
    ```
 
 3. Install dependencies:
