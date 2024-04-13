@@ -1,6 +1,6 @@
 ![resume](https://i.imgur.com/2VlQrLB.png)
 
-# Minimalist Resume [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjianan1104%2Fcv)
+# Minimalist Resume [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjianan1104%2Fresume)
 
 Simple web app that renders minimalist Resume with print-friendly layout, Fork from [https://github.com/BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
 
@@ -23,7 +23,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/jianan1104/cv.git
+   git clone https://github.com/jianan1104/resume.git
    ```
 
 2. Move to the cloned directory
